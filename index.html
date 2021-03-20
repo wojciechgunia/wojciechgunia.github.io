@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+
+        <meta charset="utf-8">
+        <title>Wojciech Gunia</title>
+        <meta name="description" content="Cześć, Nazwyam się Wojciech Gunia. Jestem programistą i przedsiębiorcą. Jeśli mogę Ci w czymś pomóc wejdź na moją stronę. ">
+        <meta name="keywords" content="Strony internetowe w poznaniu, Programista, Wojciech Gunia">
+        <meta name="author" content="Wojciech Gunia">
+        <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width">
+        <!--<link rel="shortcut icon" href="png/favicon.ico" type="image/x-icon">-->
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="main-s1.css">
+        <link rel="stylesheet" href="main-s2.css">
+        <link rel="stylesheet" href="css/fontello.css">
+        
+    </head>
+    
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+	
+    
+    <body>
+        <header>
+            <div id="logo" class="logo gora">
+                <a href="#">
+				    <img src="png/logo.png" alt="" />
+				</a>
+				<a href="#" class="logo_text">
+				    <img src="png/nazwa.png" alt="" />
+				</a>
+            </div>
+            <div id="burger-btn" class="gora">
+                <div id="h-icon" class="close">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <span>MENU</span>
+            </div>
+        </header>
+        <nav id="nav" class="close">
+            <div id="info">
+                <span><p style="color: #222">Bądźmy w kontakcie</p></span>
+                <span><p><i class="icon-mail-alt"></i>wojciechgunia@outlook.pl</p></span>
+                <p style="color: #222">Możesz odwiedzić nas na</p>
+                <a href="https://www.facebook.com/wojciechandrzejgunia" target="_blank"><i class="icon-facebook-circled"></i></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/wojciechgunia" target="_blank"><i class="icon-linkedin-circled"></i></a>&nbsp;&nbsp;<a href="https://www.instagram.com/wojciech.gunia" target="_blank"><i class="icon-instagram"></i></a>
+                
+            </div>
+            <div class="nav">
+                  <div class="nav-item" style="margin-bottom: 40px;">
+                      <a href="#" style="pointer-events: none; color: #333">PL</a>&nbsp;<a href="en/index.html">ENG</a>
+                  </div>
+                  <a href="#" style="pointer-events: none; color: #333"><div class="nav-item">
+                     Strona główna
+                  </div></a>
+                  <a href="#"><div class="nav-item">
+                     O mnie
+                  </div></a>
+                    <a href="#" style="pointer-events: none; color: #333"><div class="nav-item">
+                     Mój sklep
+                  </div></a>
+                  <a href="kontakt.html"><div class="nav-item">
+                     Kontakt
+                  </div></a>
+                  
+            </div>
+        </nav>
+        
+        <main>
+            <div id="slider">
+                <div>
+				    <p>Wojciech<br>Gunia</p>
+                    <div id="kolo"></div>
+                    <img src="png/me.png" alt="">
+                </div>
+                <div class="soc">
+                    <a href="https://www.facebook.com/wojciechandrzejgunia" target="_blank"><i class="icon-facebook-circled"></i></a><br><a href="https://www.linkedin.com/in/wojciechgunia" target="_blank"><i class="icon-linkedin-circled"></i></a><br><a href="https://www.instagram.com/wojciech.gunia" target="_blank"><i class="icon-instagram"></i></a>
+                </div>
+            </div>
+            <article id="instagram">
+                <h2><i class="icon-instagram"></i>Instagram</h2>
+                <div id="ins-post">
+                    <img src="png/post1.png" alt="">
+                    <img src="png/post2.png" alt="">
+                    <img src="png/post3.png" alt="">
+                    <img src="png/post4.png" alt="">
+                </div>
+                <a href="https://www.instagram.com/wojciech.gunia" target="_blank" style="margin: 1vw;margin-bottom: 4vw;"><div id="ins-btn" >Przejdź do profilu</div></a>
+            </article>
+            
+            <article id="facebook">
+                <h2><i class="icon-facebook-circled"></i>Facebook</h2>
+                <div id="fb-post">
+                    <img src="png/post1.png" alt="">
+                    <img src="png/post2.png" alt="">
+                    <img src="png/post5.jpg" alt="">
+                    <img src="png/post6.jpg" alt="">
+                </div>
+                <a href="https://www.facebook.com/wojciechandrzejgunia" target="_blank" style="margin: 1vw;margin-bottom: 4vw;"><div id="fb-btn" >Przejdź do profilu</div></a>
+            </article>
+            
+            <article id="linkedin">
+                <h2><i class="icon-linkedin-circled"></i>Linkedin</h2>
+                <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="pl_PL" data-type="horizontal" data-theme="light" data-vanity="wojciechgunia"><a class="LI-simple-link" href='https://pl.linkedin.com/in/wojciechgunia?trk=profile-badge' target="_blank">Wojciech Gunia</a></div>
+            </article>
+            
+        </main>
+        <footer>
+            Wojciech Gunia &copy; 2021
+        </footer>
+        <div id="cooke">
+            Serwis wykorzystuje pliki cookies. Korzystając ze strony wyrażasz zgodę na ich wykorzystywanie.<div id="cookebtn">Zgadzam się</div>
+        </div>
+    </body>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="profile.js" async defer></script>
+    
+    <script>
+        
+        $("#burger-btn").click(function(){
+            if ( document.getElementById("nav").classList.contains('close') )
+                {
+                    document.getElementById("nav").classList.add('open');
+                    document.getElementById("h-icon").classList.add('open');
+                    document.getElementById("nav").classList.remove('close');
+                    document.getElementById("h-icon").classList.remove('close');
+                }
+            else
+                {
+                    document.getElementById("nav").classList.remove('open');
+                    document.getElementById("h-icon").classList.remove('open');
+                    document.getElementById("nav").classList.add('close');
+                    document.getElementById("h-icon").classList.add('close');
+                }    
+        });
+        jQuery(function($)
+        {
+            $.scrollTo(0);
+            document.getElementById("slider").style.width = window.innerWidth;
+            document.getElementById("slider").style.height = window.innerHeight;
+        }
+        );
+        $(window).scroll(function()
+        {
+            if($(this).scrollTop()>30) 
+            {
+                document.getElementById("logo").classList.remove('gora');
+                document.getElementById("logo").classList.add('dol');
+                document.getElementById("burger-btn").classList.remove('gora');
+                document.getElementById("burger-btn").classList.add('dol');
+            }
+            else 
+            {
+                document.getElementById("logo").classList.remove('dol');
+                document.getElementById("logo").classList.add('gora');
+                document.getElementById("burger-btn").classList.remove('dol');
+                document.getElementById("burger-btn").classList.add('gora');
+            }
+        }
+        );
+        $("#cookebtn").click(function(){
+            document.getElementById("cooke").classList.add('close');   
+        });
+
+    </script>
+     
+</html>
