@@ -1,0 +1,81 @@
+@media(max-width: 500px)
+{
+    .nav a
+    {
+        font-size: 30px;
+        margin: 8px 10px;
+    }
+    .nav
+    {
+        left: 30px;
+    }
+    #burger-btn.dol, #burger-btn.gora
+    {
+        right: 10px;
+        top: 48px;
+    }
+    #logo.dol, #logo.gora
+    {
+        left: 10px;
+        top: 48px;
+    }
+    #info
+    {
+        opacity: 0;
+        pointer-events: none;
+    }
+    #logo img
+    {
+        width: 99%;
+        height: 99%;
+    }
+    .pad1
+    {
+    font-size:3vh;
+    }
+    .pad2
+    {
+    font-size:3vh;
+    }
+    .pad2 button
+    {
+        width:44vw;
+    }
+    .pad2 input
+    {
+        width:80vw;
+    }
+}
+
+@media(max-width: 350px)
+{
+    .nav a
+    {
+        font-size: 24px;
+        margin: 0px 5px;
+    }
+    .nav
+    {
+        left: 20px;
+    }
+    #burger-btn.dol, #burger-btn.gora
+    {
+        right: 10px;
+        top: 48px;
+    }
+    #logo.dol, #logo.gora
+    {
+        left: 10px;
+        top: 48px;
+    }
+    #logo img
+    {
+        width: 99%;
+        height: 99%;
+    }
+    #info
+    {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
